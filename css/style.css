@@ -113,6 +113,23 @@ img{
 	justify-content: center;
 	text-align: center;
 }
+.tabs p {
+    font-size:1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container > div{
+    padding:1.5rem 0;
+}
+
+.tabs .container > div:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.tab-border{
+    border-bottom: var(--primary-color) 4px solid;
+}
 
 .container {
 	max-width: 70%;
