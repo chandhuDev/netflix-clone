@@ -6,6 +6,7 @@
 
 :root{
     --primary-color:#e05914;
+    --secondary-color:#141414;
 }
 
 body{
@@ -96,6 +97,28 @@ img{
     z-index: 1;
     background: rgba(0, 0, 0, 0.5);
     box-shadow: inset 50px 50px 150px #000000,inset -50px -50px 150px #000000;
+}
+
+.tabs{
+    background: var(--secondary-color);
+    padding-top: 1rem;
+    border-bottom:3px solid  #3d3d3d;
+}
+
+.tabs .container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.container {
+	max-width: 70%;
+	margin: auto;
+	overflow:hidden;
+	padding: 0 2rem;
 }
 
 
